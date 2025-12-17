@@ -1,0 +1,115 @@
+.main {
+  padding: 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.genrePicker {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.genreButton {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 50px;
+  background: #0070f3;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.genreButton:hover {
+  background: #005bb5;
+}
+
+.backButton {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 1.2rem;
+  background: #eee;
+  border: none;
+  border-radius: 50px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.card {
+  width: 90vw;
+  max-width: 450px;
+  height: auto;
+  background: #fff;
+  color: #333;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.cardImage {
+  width: 100%;
+  height: auto;
+}
+
+.cardInfo {
+  padding: 1.5rem;
+}
+
+.cardInfo h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #000;
+}
+
+.cardInfo p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.overview {
+  font-size: 0.9rem;
+  color: #555;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.buttonContainer {
+  margin-top: 1.5rem;
+}
+
+.nextButton {
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 50px;
+  background: #0070f3;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.nextButton:hover {
+  background: #005bb5;
+}
+
+.nextButton:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
